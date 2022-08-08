@@ -1,0 +1,16 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+
+    <script>
+        var url = "https://localhost:44362/api/FileExtensions";
+
+        //console.log(fetch(url));
+        fetch(url).then(response => response.json()).then(data => console.log(data));
+    </script>
+</body>
+</html>
